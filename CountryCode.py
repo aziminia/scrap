@@ -4,7 +4,7 @@ import MySQLdb
 
 conn = MySQLdb.connect(host="localhost",
                        user="root",
-                       passwd="5328266",
+                       passwd="",
                        db="wiki")
 x = conn.cursor()
 
